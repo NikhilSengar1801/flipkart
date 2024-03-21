@@ -1,6 +1,310 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    outline: none;
     box-sizing: border-box;
+    vertical-align: top;
+    list-style: none;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+
+#header-main {
+    background-color: #fff;
+}
+
+.header-top-main {
+    background: #E36024;
+    height: 40px;
+}
+
+.header-top-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 10px;
+    line-height: 40px;
+    color: white;
+}
+
+.header-top-wrapper a {
+    color: white;
+}
+
+.header-top-wrapper p i {
+    column-gap: 5px;
+}
+
+.header-top-wrapper p i {
+    padding-top: 11px;
+}
+
+.navigation a {
+    color: black;
+}
+
+.header-all-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.header-bottom {
+    padding-bottom: 15px;
+}
+
+.header-right {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+.header-right ul{
+    display: flex;
+    column-gap: 15px;
+}
+
+.header-right ul li a i.fa{
+    padding-top: 2px;
+}
+
+.btn-box {
+    display: flex;
+    column-gap: 15px;
+}
+
+.btn {
+    width: 100px;
+    height: 35px;
+    border-radius: 2px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+
+}
+
+.btn-brd-btn {
+    width: 100px;
+    height: 35px;
+    background: transparent;
+    border-radius: 2px;
+    padding: 7px 28px;
+    border: 2px solid #737373;
+    color: #737373;
+}
+
+#banner-section {
+    width: 100%;
+    position: relative;
+}
+
+.banner-content-main {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.banner-content-main h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+
+}
+
+.banner-content-main p {
+    font-size: 24px;
+    padding-bottom: 15px;
+    max-width: 596px;
+}
+
+.image-box img {
+    width: 100%;
+
+}
+
+.tag {
+    display: flex;
+}
+
+.banner-content-main a {
+    width: 178px;
+    padding: 16px 40px;
+    border-radius: 5px;
+    background-color: #F37423;
+    color: white;
+}
+
+#section-bulb-text {
+    width: 100%;
+    padding-bottom: 120px;
+    padding-top: 130px;
+}
+
+.bulb-image {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.paragraph {
+    width: 50%;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.paragraph p {
+    padding: 10px;
+    max-width: 425px;
+}
+
+.paragraph p b {
+    color: #F37423;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#section-image {
+    width: 100%;
+    padding-bottom: 120px;
+}
+
+.text {
+    text-align: center;
+}
+
+.main-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.text h2 {
+    font-size: 35px;
+
+}
+
+.text p {
+    font-size: 18px;
+    padding-bottom: 40px;
+    color: #848484;
+
+}
+
+.main-col h3 {
+    padding: 14px 0 6px 0;
+}
+#section-last{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.last-text{
+text-align: center;
+display: inline-block;
+width: 100%;
+}
+.last-text h2{
+    font-size: 35px;
+
+}
+.last-text p{
+    font-size: 18px;
+    color: #848484;
+    max-width: 627px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.main-col p{
+    color: #848484;
+}
+
+.last-col{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+.last-col p{
+    color:#848484;
+}
+#footer{
+    width: 100%;
+    background-color:#2A2D34;
+    color:white;
+}
+.footer-text{
+display: flex;
+width: 100%;
+justify-content:space-between;
+padding-top: 100px;
+padding-bottom: 45px;
+
+}
+.fotter-tag{
+    width: 20%;
+}
+.over-tag{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.over-tag p{
+    max-width: 330px;
+}
+.nav p{
+    padding-bottom: 12px;
+}
+.nav ul li{
+    padding: 4px 0;
+}
+.nav ul li a{
+    color: white;
+}
+.nikhil{
+    text-align: center ;
+    padding: 30px 0 20px 0;
+}
+.social-media{
+    padding-top: 5px;
+}
+.social-media a{
+    
+    border-radius: 50px;
+    border: 1px solid white;
+    padding: 0;
+    background-color: white;
+    color: black;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+.social-media a i.fa{
+    margin-top: 6px;
+}
